@@ -1,0 +1,1228 @@
+[12Jun2026 03:47:09.746] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[12Jun2026 03:47:09.758] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[12Jun2026 03:47:14.551] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Jun2026 03:47:14.558] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirector CoreMod initialized successfully!
+[12Jun2026 03:47:14.641] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/eeeoeoeoe/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[12Jun2026 03:47:14.958] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/eeeoeoeoe/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[12Jun2026 03:47:14.993] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/eeeoeoeoe/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Jun2026 03:47:14.995] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/eeeoeoeoe/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Jun2026 03:47:14.996] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/eeeoeoeoe/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Jun2026 03:47:15.397] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[12Jun2026 03:47:17.981] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12Jun2026 03:47:18.126] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[12Jun2026 03:47:18.128] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[12Jun2026 03:47:18.130] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[12Jun2026 03:47:18.365] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
+[12Jun2026 03:47:18.379] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Jun2026 03:47:18.411] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/embeddedt/modernfix/annotation/FeatureLevel
+[12Jun2026 03:47:18.472] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.44+mc1.20.1: 109 options available, 0 override(s) found
+[12Jun2026 03:47:18.473] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[12Jun2026 03:47:18.491] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[12Jun2026 03:47:18.512] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/llamalad7/mixinextras/service/MixinExtrasVersion
+[12Jun2026 03:47:18.672] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting malte0811/ferritecore/mixin/config/FerriteMixinConfig$LithiumSupportState
+[12Jun2026 03:47:18.724] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[12Jun2026 03:47:19.659] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[12Jun2026 03:47:19.677] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[12Jun2026 03:47:21.025] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12Jun2026 03:47:21.263] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/Unit
+[12Jun2026 03:47:21.336] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/ChatFormatting
+[12Jun2026 03:47:21.854] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (19.12 s after launch)
+[12Jun2026 03:47:21.997] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/Util$IdentityStrategy
+[12Jun2026 03:47:22.023] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Reference$Type
+[12Jun2026 03:47:22.097] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[12Jun2026 03:47:22.100] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[12Jun2026 03:47:22.267] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[12Jun2026 03:47:22.267] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[12Jun2026 03:47:22.267] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[12Jun2026 03:47:22.267] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[12Jun2026 03:47:22.267] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[12Jun2026 03:47:23.657] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction
+[12Jun2026 03:47:23.660] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$AxisDirection
+[12Jun2026 03:47:23.661] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Axis
+[12Jun2026 03:47:23.962] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Plane
+[12Jun2026 03:47:23.966] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/FrontAndTop
+[12Jun2026 03:47:23.978] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/AttachFace
+[12Jun2026 03:47:23.979] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BellAttachType
+[12Jun2026 03:47:23.982] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/WallSide
+[12Jun2026 03:47:23.983] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RedstoneSide
+[12Jun2026 03:47:23.984] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoubleBlockHalf
+[12Jun2026 03:47:23.985] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Half
+[12Jun2026 03:47:23.987] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RailShape
+[12Jun2026 03:47:23.991] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BedPart
+[12Jun2026 03:47:23.992] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ChestType
+[12Jun2026 03:47:23.994] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ComparatorMode
+[12Jun2026 03:47:23.994] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoorHingeSide
+[12Jun2026 03:47:23.996] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument
+[12Jun2026 03:47:24.078] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument$Type
+[12Jun2026 03:47:24.080] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/PistonType
+[12Jun2026 03:47:24.081] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SlabType
+[12Jun2026 03:47:24.082] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StairsShape
+[12Jun2026 03:47:24.083] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StructureMode
+[12Jun2026 03:47:24.084] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BambooLeaves
+[12Jun2026 03:47:24.085] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Tilt
+[12Jun2026 03:47:24.086] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DripstoneThickness
+[12Jun2026 03:47:24.087] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SculkSensorPhase
+[12Jun2026 03:47:24.422] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/material/PushReaction
+[12Jun2026 03:47:24.583] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/RenderShape
+[12Jun2026 03:47:24.599] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[12Jun2026 03:47:24.600] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[12Jun2026 03:47:24.611] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[12Jun2026 03:47:24.611] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[12Jun2026 03:47:24.634] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$Precipitation
+[12Jun2026 03:47:24.641] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/pathfinder/PathComputationType
+[12Jun2026 03:47:24.644] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/BlockBehaviour$OffsetType
+[12Jun2026 03:47:24.712] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkDirection
+[12Jun2026 03:47:24.757] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2884 milliseconds
+[12Jun2026 03:47:24.773] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/DyeColor
+[12Jun2026 03:47:24.777] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/ByIdMap$OutOfBoundsStrategy
+[12Jun2026 03:47:24.835] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/Rotation
+[12Jun2026 03:47:24.881] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionHand
+[12Jun2026 03:47:24.883] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionResult
+[12Jun2026 03:47:24.883] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/Mirror
+[12Jun2026 03:47:24.904] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/AxisCycle
+[12Jun2026 03:47:24.922] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/Player$BedSleepingProblem
+[12Jun2026 03:47:24.923] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/DoubleBlockCombiner$BlockType
+[12Jun2026 03:47:25.064] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/effect/MobEffectCategory
+[12Jun2026 03:47:25.067] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation
+[12Jun2026 03:47:25.227] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/PressurePlateBlock$Sensitivity
+[12Jun2026 03:47:25.255] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot
+[12Jun2026 03:47:25.289] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/MultifaceSpreader$SpreadType
+[12Jun2026 03:47:25.346] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/SkullBlock$Types
+[12Jun2026 03:47:25.546] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/JigsawBlockEntity$JointType
+[12Jun2026 03:47:25.560] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/BeehiveBlockEntity$BeeReleaseStatus
+[12Jun2026 03:47:25.614] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/WeatheringCopper$WeatherState
+[12Jun2026 03:47:25.764] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Rarity
+[12Jun2026 03:47:25.779] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/AbstractMinecart$Type
+[12Jun2026 03:47:25.832] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobCategory
+[12Jun2026 03:47:26.179] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/goal/Goal$Flag
+[12Jun2026 03:47:26.424] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Pose
+[12Jun2026 03:47:26.425] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/sniffer/Sniffer$State
+[12Jun2026 03:47:26.646] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorItem$Type
+[12Jun2026 03:47:26.647] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot$Type
+[12Jun2026 03:47:26.652] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/Boat$Type
+[12Jun2026 03:47:26.655] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorMaterials
+[12Jun2026 03:47:26.700] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Tiers
+[12Jun2026 03:47:26.744] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundPlayerInfoUpdatePacket$Action
+[12Jun2026 03:47:26.869] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/Enchantment$Rarity
+[12Jun2026 03:47:26.870] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/ProtectionEnchantment$Type
+[12Jun2026 03:47:26.870] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/EnchantmentCategory
+[12Jun2026 03:47:26.907] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType
+[12Jun2026 03:47:26.911] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Types
+[12Jun2026 03:47:26.963] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Usage
+[12Jun2026 03:47:26.977] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/ChunkStatus$ChunkType
+[12Jun2026 03:47:27.014] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/crafting/CraftingBookCategory
+[12Jun2026 03:47:27.027] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/crafting/CookingBookCategory
+[12Jun2026 03:47:27.180] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Kind
+[12Jun2026 03:47:27.316] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/placement/CaveSurface
+[12Jun2026 03:47:27.392] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/StructurePlacement$FrequencyReductionMethod
+[12Jun2026 03:47:27.402] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/RandomSpreadType
+[12Jun2026 03:47:27.483] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[12Jun2026 03:47:27.532] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/StructureSpawnOverride$BoundingBoxType
+[12Jun2026 03:47:27.539] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Decoration
+[12Jun2026 03:47:27.541] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/TerrainAdjustment
+[12Jun2026 03:47:27.572] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type
+[12Jun2026 03:47:27.578] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/OceanRuinStructure$Type
+[12Jun2026 03:47:27.582] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement
+[12Jun2026 03:47:27.602] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Carving
+[12Jun2026 03:47:27.647] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in modernfix-modernfix.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[12Jun2026 03:47:27.657] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$TemperatureModifier
+[12Jun2026 03:47:27.661] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier
+[12Jun2026 03:47:27.747] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Temperature
+[12Jun2026 03:47:27.748] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Steep
+[12Jun2026 03:47:27.749] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Hole
+[12Jun2026 03:47:27.750] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$AbovePreliminarySurface
+[12Jun2026 03:47:27.751] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Bandlands
+[12Jun2026 03:47:27.755] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendAlpha
+[12Jun2026 03:47:27.756] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendOffset
+[12Jun2026 03:47:27.757] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BeardifierMarker
+[12Jun2026 03:47:27.760] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Marker$Type
+[12Jun2026 03:47:27.766] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$WeirdScaledSampler$RarityValueMapper
+[12Jun2026 03:47:27.778] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Mapped$Type
+[12Jun2026 03:47:27.779] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$TwoArgumentSimpleFunction$Type
+[12Jun2026 03:47:27.836] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection
+[12Jun2026 03:47:27.847] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/CreativeModeTab$Row
+[12Jun2026 03:47:27.851] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/CreativeModeTab$Type
+[12Jun2026 03:47:28.117] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/blay09/mods/balm/api/BalmEnvironment
+[12Jun2026 03:47:28.126] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/world/BiomeModifier$Phase
+[12Jun2026 03:47:28.129] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/client/gui/SortButtonsPosition
+[12Jun2026 03:47:28.150] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/Commands$CommandSelection
+[12Jun2026 03:47:28.158] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Phase
+[12Jun2026 03:47:28.158] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Type
+[12Jun2026 03:47:28.182] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/blay09/mods/balm/api/event/TickPhase
+[12Jun2026 03:47:28.185] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/blay09/mods/balm/api/event/EventPriority
+[12Jun2026 03:47:28.194] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/illusivesoulworks/spectrelib/config/SpectreConfig$Type
+[12Jun2026 03:47:28.205] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/illusivesoulworks/comforts/common/ComfortsConfig$ComfortsTimeUse
+[12Jun2026 03:47:28.219] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/illusivesoulworks/spectrelib/config/SpectreConfig$InstanceType
+[12Jun2026 03:47:28.257] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for trashslot:common (COMMON) with 5 properties.
+[12Jun2026 03:47:28.276] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[12Jun2026 03:47:28.364] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/jukebox/RepeatMode
+[12Jun2026 03:47:28.430] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/feeding/HungerLevel
+[12Jun2026 03:47:28.436] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/voiding/VoidType
+[12Jun2026 03:47:28.442] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/upgrades/refill/RefillUpgradeWrapper$TargetSlot
+[12Jun2026 03:47:28.455] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/upgrades/inception/InventoryOrder
+[12Jun2026 03:47:28.462] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/capabilities/CapabilityManager
+[12Jun2026 03:47:28.465] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/upgrades/toolswapper/ToolSwapMode
+[12Jun2026 03:47:28.481] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/xppump/AutomationDirection
+[12Jun2026 03:47:28.490] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/alchemy/AlchemyCondition
+[12Jun2026 03:47:28.493] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/EntityMatch
+[12Jun2026 03:47:28.517] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[12Jun2026 03:47:28.517] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[12Jun2026 03:47:28.521] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobSpawnType
+[12Jun2026 03:47:28.537] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/player/PlayerInteractEvent$LeftClickBlock$Action
+[12Jun2026 03:47:28.568] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumDragonArmor
+[12Jun2026 03:47:28.573] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumDragonEgg
+[12Jun2026 03:47:28.576] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumSeaSerpent
+[12Jun2026 03:47:28.594] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ItemDisplayContext
+[12Jun2026 03:47:28.617] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/ClipContext$Fluid
+[12Jun2026 03:47:28.637] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/RecipeBookType
+[12Jun2026 03:47:28.716] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumSkullType
+[12Jun2026 03:47:28.723] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumTroll
+[12Jun2026 03:47:28.727] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumTroll$Weapon
+[12Jun2026 03:47:28.761] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting team/creative/creativecore/common/config/sync/ConfigSynchronization
+[12Jun2026 03:47:28.763] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting team/creative/creativecore/Side
+[12Jun2026 03:47:28.770] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameType
+[12Jun2026 03:47:28.809] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/client/CuriosClientConfig$Client$ButtonCorner
+[12Jun2026 03:47:28.815] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/common/CuriosConfig$KeepCurios
+[12Jun2026 03:47:28.867] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$FogDensity
+[12Jun2026 03:47:28.872] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/block/GraveModel
+[12Jun2026 03:47:28.874] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/block/BlockGraveMarble$MarbleType
+[12Jun2026 03:47:28.876] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$GraveSkinRule
+[12Jun2026 03:47:28.877] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$AutoEquipRule
+[12Jun2026 03:47:28.877] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$MarkerType
+[12Jun2026 03:47:28.878] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/config/ConfigTombstone$Client$FontRule
+[12Jun2026 03:47:28.900] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/TimeHelper$SpecialEvent
+[12Jun2026 03:47:28.958] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/LootHelper$ReadableScrollType
+[12Jun2026 03:47:28.962] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/UpdaterHandler$PoolType
+[12Jun2026 03:47:29.026] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumParticles
+[12Jun2026 03:47:29.037] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/utils/Env
+[12Jun2026 03:47:29.081] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/PackType
+[12Jun2026 03:47:29.086] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[12Jun2026 03:47:29.088] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/networking/NetworkManager$Side
+[12Jun2026 03:47:29.109] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[12Jun2026 03:47:29.187] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/util/SCItemGroup
+[12Jun2026 03:47:29.392] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/ChatTypeDecoration$Parameter
+[12Jun2026 03:47:29.403] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/damagesource/DamageScaling
+[12Jun2026 03:47:29.404] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/damagesource/DamageEffects
+[12Jun2026 03:47:29.405] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/damagesource/DeathMessageType
+[12Jun2026 03:47:30.264] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/misc/SCSounds
+[12Jun2026 03:47:30.281] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/illusivesoulworks/comforts/common/block/BaseComfortsBlock$BedType
+[12Jun2026 03:47:30.339] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/pathfinder/BlockPathTypes
+[12Jun2026 03:47:30.341] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting vectorwing/farmersdelight/common/block/state/CookingPotSupport
+[12Jun2026 03:47:30.364] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting vectorwing/farmersdelight/common/utility/ShapeUtils$RotationAmount
+[12Jun2026 03:47:30.506] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexmodguy/alexscaves/server/block/TubeWormBlock$TubeShape
+[12Jun2026 03:47:30.532] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexmodguy/alexscaves/server/misc/VoronoiGenerator$DistanceType
+[12Jun2026 03:47:30.558] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/SpawnPlacements$Type
+[12Jun2026 03:47:30.567] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/blocks/KeypadBarrelBlock$LidFacing
+[12Jun2026 03:47:30.695] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/block/SoulType
+[12Jun2026 03:47:30.750] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/alexsmobs/item/ItemEcholocator$EchoType
+[12Jun2026 03:47:30.767] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/filter/Direction
+[12Jun2026 03:47:30.788] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/item/ItemDragonArmor$DragonArmorType
+[12Jun2026 03:47:30.821] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexmodguy/alexscaves/server/entity/util/AlexsCavesBoat$Type
+[12Jun2026 03:47:30.838] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexmodguy/alexscaves/server/entity/util/GummyColors
+[12Jun2026 03:47:30.858] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/misc/ModuleType
+[12Jun2026 03:47:30.862] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/misc/PageGroup
+[12Jun2026 03:47:30.886] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/item/ItemAdvancement$IconType
+[12Jun2026 03:47:30.887] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/item/ItemScrollBuff$SpellBuff
+[12Jun2026 03:47:30.974] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/registry/ModTriggers$WololoColor
+[12Jun2026 03:47:31.730] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/LangKey
+[12Jun2026 03:47:31.769] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/perk/PerkBranch
+[12Jun2026 03:47:31.825] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/Difficulty
+[12Jun2026 03:47:31.898] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ItemStack$TooltipPart
+[12Jun2026 03:47:31.948] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexmodguy/alexscaves/server/entity/util/MagnetronJoint
+[12Jun2026 03:47:31.959] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[12Jun2026 03:47:31.965] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/SpawnPlacementRegisterEvent$Operation
+[12Jun2026 03:47:32.200] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/citadel/config/biome/BiomeEntryType
+[12Jun2026 03:47:32.423] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mezz/jei/common/network/PacketIdServer
+[12Jun2026 03:47:32.429] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mezz/jei/common/config/GiveMode
+[12Jun2026 03:47:32.430] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/shadowsoffire/placebo/config/Property$Type
+[12Jun2026 03:47:32.447] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[12Jun2026 03:47:32.477] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/maxhenkel/voicechat/logging/LogLevel
+[12Jun2026 03:47:32.479] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[12Jun2026 03:47:32.480] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/maxhenkel/voicechat/config/ServerConfig$Codec
+[12Jun2026 03:47:32.508] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[12Jun2026 03:47:32.563] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/maxhenkel/opus4j/OpusEncoder$Application
+[12Jun2026 03:47:32.564] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/maxhenkel/voicechat/api/opus/OpusEncoderMode
+[12Jun2026 03:47:32.587] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/api/type/capability/ICurio$DropRule
+[12Jun2026 03:47:32.612] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/network/client/OpenScreen$DataType
+[12Jun2026 03:47:32.613] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/common/network/server/sync/SPacketSyncStack$HandlerType
+[12Jun2026 03:47:32.626] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/network/server/RemoteControlMine$Action
+[12Jun2026 03:47:32.641] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/util/StandingOrWallType
+[12Jun2026 03:47:32.642] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/item/CastingType
+[12Jun2026 03:47:32.644] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/blockentities/BlockChangeDetectorBlockEntity$DetectionMode
+[12Jun2026 03:47:32.645] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting it/hurts/octostudios/nerb/common/config/misc/ButtonMode
+[12Jun2026 03:47:32.649] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/network/server/SyncProjector$DataType
+[12Jun2026 03:47:32.650] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/blockentities/RiftStabilizerBlockEntity$TeleportationType
+[12Jun2026 03:47:32.651] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/network/server/SyncSSSSettingsOnServer$DataType
+[12Jun2026 03:47:32.668] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[12Jun2026 03:47:32.675] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[12Jun2026 03:47:32.675] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[12Jun2026 03:47:32.682] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
+[12Jun2026 03:47:32.683] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[12Jun2026 03:47:32.684] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
+[12Jun2026 03:47:32.694] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/introspector/BeanAccess
+[12Jun2026 03:47:32.697] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/maxhenkel/voicechat/permission/PermissionType
+[12Jun2026 03:47:32.712] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/nodes/NodeId
+[12Jun2026 03:47:32.725] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/DumperOptions$ScalarStyle
+[12Jun2026 03:47:32.726] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/DumperOptions$FlowStyle
+[12Jun2026 03:47:32.726] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/DumperOptions$LineBreak
+[12Jun2026 03:47:32.727] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/DumperOptions$NonPrintableStyle
+[12Jun2026 03:47:32.777] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/comments/CommentType
+[12Jun2026 03:47:32.780] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting it/hurts/octostudios/octolib/modules/config/cfgbuilder/EntryId
+[12Jun2026 03:47:32.794] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/events/Event$ID
+[12Jun2026 03:47:32.795] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/yaml/snakeyaml/tokens/Token$ID
+[12Jun2026 03:47:32.992] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting it/hurts/octostudios/octolib/modules/config/impl/ConfigSide
+[12Jun2026 03:47:33.188] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Starting version check at https://api.modrinth.com/updates/radium/forge_updates.json
+[12Jun2026 03:47:33.350] [main/FATAL] [ModernFix/]: Redirector 5.x is detected, it is known to cause extremely hard-to-debug issues in other mods
+[12Jun2026 03:47:33.420] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Found status: AHEAD Current: 0.12.4+git.26c9d8e Target: null
+[12Jun2026 03:47:33.420] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Jun2026 03:47:33.430] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameRules$Category
+[12Jun2026 03:47:33.547] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[12Jun2026 03:47:33.547] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[12Jun2026 03:47:33.648] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/compatibility/SupportMods
+[12Jun2026 03:47:33.753] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/api/SlotTypePreset
+[12Jun2026 03:47:33.862] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/api/config/IWailaConfig$DisplayMode
+[12Jun2026 03:47:33.864] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/api/config/IWailaConfig$TTSMode
+[12Jun2026 03:47:33.865] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/api/config/IWailaConfig$FluidMode
+[12Jun2026 03:47:33.867] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/api/config/IWailaConfig$BossBarOverlapMode
+[12Jun2026 03:47:33.873] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/api/config/IWailaConfig$IconMode
+[12Jun2026 03:47:33.884] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[12Jun2026 03:47:33.931] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[12Jun2026 03:47:33.933] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/BrewingStandProvider
+[12Jun2026 03:47:33.934] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/BeehiveProvider
+[12Jun2026 03:47:33.935] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/CommandBlockProvider
+[12Jun2026 03:47:33.936] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/JukeboxProvider
+[12Jun2026 03:47:33.937] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/LecternProvider
+[12Jun2026 03:47:33.937] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/RedstoneProvider
+[12Jun2026 03:47:33.938] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/FurnaceProvider
+[12Jun2026 03:47:33.940] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/ChiseledBookshelfProvider
+[12Jun2026 03:47:33.940] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/ItemStorageProvider
+[12Jun2026 03:47:33.943] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/AnimalOwnerProvider
+[12Jun2026 03:47:33.944] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/StatusEffectsProvider
+[12Jun2026 03:47:33.945] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/MobGrowthProvider
+[12Jun2026 03:47:33.945] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/MobBreedingProvider
+[12Jun2026 03:47:33.946] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/ChickenEggProvider
+[12Jun2026 03:47:33.946] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/ZombieVillagerProvider
+[12Jun2026 03:47:33.947] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/vanilla/CampfireProvider
+[12Jun2026 03:47:33.948] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[12Jun2026 03:47:33.948] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/EntityItemStorageProvider
+[12Jun2026 03:47:33.949] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/FluidStorageProvider
+[12Jun2026 03:47:33.950] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/EntityFluidStorageProvider
+[12Jun2026 03:47:33.951] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/EnergyStorageProvider
+[12Jun2026 03:47:33.952] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/EntityEnergyStorageProvider
+[12Jun2026 03:47:33.953] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/ProgressProvider
+[12Jun2026 03:47:33.954] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/universal/EntityProgressProvider
+[12Jun2026 03:47:33.954] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[12Jun2026 03:47:33.955] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/core/RegistryNameProvider$Mode
+[12Jun2026 03:47:33.955] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/jade/addon/core/ObjectNameProvider
+[12Jun2026 03:47:33.956] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[12Jun2026 03:47:33.958] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[12Jun2026 03:47:34.169] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.6.18 Target: null
+[12Jun2026 03:47:34.170] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[12Jun2026 03:47:34.270] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.10 Target: 1.20.1-1.5.1
+[12Jun2026 03:47:34.270] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[12Jun2026 03:47:34.386] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.1 Target: null
+[12Jun2026 03:47:34.387] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[12Jun2026 03:47:34.402] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[12Jun2026 03:47:34.402] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[12Jun2026 03:47:34.411] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.0.10 Target: null
+[12Jun2026 03:47:34.517] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: Mods loaded with 2 warnings
+[12Jun2026 03:47:34.521] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: modernfix.redirector_installed
+[12Jun2026 03:47:34.522] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: modernfix.perf_mod_warning
+[12Jun2026 03:47:34.549] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12Jun2026 03:47:34.668] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[12Jun2026 03:47:34.950] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/nbt/StreamTagVisitor$ValueResult
+[12Jun2026 03:47:34.951] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/nbt/StreamTagVisitor$EntryResult
+[12Jun2026 03:47:34.984] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/datafix/DataFixTypes
+[12Jun2026 03:47:35.005] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/eeeoeoeoe/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/assets/.mcassetsroot' uses unexpected schema
+[12Jun2026 03:47:35.005] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/eeeoeoeoe/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/data/.mcassetsroot' uses unexpected schema
+[12Jun2026 03:47:35.050] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/repository/Pack$Position
+[12Jun2026 03:47:35.051] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/repository/PackCompatibility
+[12Jun2026 03:47:35.080] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/RegistryLayer
+[12Jun2026 03:47:35.897] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mojang/math/OctahedralGroup
+[12Jun2026 03:47:35.901] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mojang/math/SymmetricGroup3
+[12Jun2026 03:47:35.978] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/yungnickyoung/minecraft/betterdungeons/world/DungeonType
+[12Jun2026 03:47:36.060] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd$Type
+[12Jun2026 03:47:36.590] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/PrimaryLevelData$SpecialWorldProperty
+[12Jun2026 03:47:36.622] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/LootContext$EntityTarget
+[12Jun2026 03:47:36.629] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/CommandBuildContext$MissingTagAccessPolicy
+[12Jun2026 03:47:36.739] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/sounds/SoundSource
+[12Jun2026 03:47:36.781] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/ClickEvent$Action
+[12Jun2026 03:47:36.941] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/commands/ConvertCommand$ConversionMode
+[12Jun2026 03:47:36.947] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/command/TombstoneCommand$CommandName
+[12Jun2026 03:47:36.950] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/command/CommandTBKnowledge$SubCommand
+[12Jun2026 03:47:36.952] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/command/CommandTBAlignment$SubCommand
+[12Jun2026 03:47:36.956] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/command/CommandTBRecovery$SubCommand
+[12Jun2026 03:47:36.961] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/command/CommandTBSiege$SubCommand
+[12Jun2026 03:47:36.963] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/command/CommandTBTeleport$SubCommand
+[12Jun2026 03:47:36.978] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[12Jun2026 03:47:37.280] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/arguments/EntityAnchorArgument$Anchor
+[12Jun2026 03:47:37.399] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/functions/CopyNameFunction$NameSource
+[12Jun2026 03:47:37.402] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/functions/CopyNbtFunction$MergeStrategy
+[12Jun2026 03:47:37.422] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/backpack/BackpackShapeHelper$Part
+[12Jun2026 03:47:37.424] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/backpack/BackpackShapes$PartModel
+[12Jun2026 03:47:37.431] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/axolotl/Axolotl$Variant
+[12Jun2026 03:47:37.433] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/Fox$Type
+[12Jun2026 03:47:37.434] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/MushroomCow$MushroomType
+[12Jun2026 03:47:37.436] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/Rabbit$Variant
+[12Jun2026 03:47:37.437] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/horse/Variant
+[12Jun2026 03:47:37.439] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/horse/Llama$Variant
+[12Jun2026 03:47:37.441] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/Parrot$Variant
+[12Jun2026 03:47:37.442] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/TropicalFish$Pattern
+[12Jun2026 03:47:37.443] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/TropicalFish$Base
+[12Jun2026 03:47:37.483] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/saveddata/maps/MapDecoration$Type
+[12Jun2026 03:47:37.633] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/loot/EnchantedEquipmentFunction$Type
+[12Jun2026 03:47:37.703] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[12Jun2026 03:47:37.726] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting vectorwing/farmersdelight/client/recipebook/CookingPotRecipeBookTab
+[12Jun2026 03:47:37.886] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/FireworkRocketItem$Shape
+[12Jun2026 03:47:37.930] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[12Jun2026 03:47:37.939] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/advancements/FrameType
+[12Jun2026 03:47:38.060] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3151 advancements
+[12Jun2026 03:47:38.067] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[12Jun2026 03:47:38.067] [main/INFO] [Dungeon Crawl/]: Loading data...
+[12Jun2026 03:47:38.073] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting xiroc/dungeoncrawl/dungeon/model/DungeonModelBlockType
+[12Jun2026 03:47:38.265] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting xiroc/dungeoncrawl/dungeon/DungeonLayerType
+[12Jun2026 03:47:38.322] [main/INFO] [Dungeon Crawl/]: Done.
+[12Jun2026 03:47:38.336] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[12Jun2026 03:47:38.338] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[12Jun2026 03:47:38.339] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[12Jun2026 03:47:38.374] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TagsUpdatedEvent$UpdateCause
+[12Jun2026 03:47:38.376] [main/WARN] [ModernFix/]: Initial datapack load took 3.345 s
+[12Jun2026 03:47:38.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[12Jun2026 03:47:38.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Jun2026 03:47:38.633] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Jun2026 03:47:38.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Jun2026 03:47:38.836] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Jun2026 03:47:38.873] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Jun2026 03:47:39.088] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12Jun2026 03:47:39.089] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12Jun2026 03:47:39.090] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12Jun2026 03:47:39.090] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[12Jun2026 03:47:39.126] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/util/TeamUtils$TeamType
+[12Jun2026 03:47:39.350] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/world/StructureModifier$Phase
+[12Jun2026 03:47:39.390] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12Jun2026 03:47:39.396] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/ModCheck$Confidence
+[12Jun2026 03:47:39.437] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/village/VillageSiege$State
+[12Jun2026 03:47:39.504] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/ticks/TickPriority
+[12Jun2026 03:47:39.513] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/storage/IOWorker$Priority
+[12Jun2026 03:47:39.535] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/entity/Visibility
+[12Jun2026 03:47:39.535] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/entity/PersistentEntitySectionManager$ChunkLoadStatus
+[12Jun2026 03:47:39.546] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/level/FullChunkStatus
+[12Jun2026 03:47:39.641] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/WorldgenRandom$Algorithm
+[12Jun2026 03:47:39.857] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/LightLayer
+[12Jun2026 03:47:40.090] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/spawner/CustomVillageSiege$SiegeState
+[12Jun2026 03:47:40.091] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/TamableType
+[12Jun2026 03:47:40.157] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/control/MoveControl$Operation
+[12Jun2026 03:47:40.170] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/citadel/server/entity/pathfinding/raycoms/AdvancedPathNavigate$MovementType
+[12Jun2026 03:47:40.183] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/projectile/AbstractArrow$Pickup
+[12Jun2026 03:47:40.206] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/BossEvent$BossBarColor
+[12Jun2026 03:47:40.206] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/BossEvent$BossBarOverlay
+[12Jun2026 03:47:40.208] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundBossEventPacket$OperationType
+[12Jun2026 03:47:40.211] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexmodguy/alexscaves/server/entity/living/MagnetronEntity$AttackPose
+[12Jun2026 03:47:40.224] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/Explosion$BlockInteraction
+[12Jun2026 03:47:40.230] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/alexsmobs/entity/util/AnacondaPartIndex
+[12Jun2026 03:47:40.268] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/alexsmobs/entity/EntityMimicOctopus$MimicState
+[12Jun2026 03:47:40.289] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/alexsmobs/entity/EntityVoidWorm$AttackMode
+[12Jun2026 03:47:40.297] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/cadentem/cave_dweller/entities/goals/Roll
+[12Jun2026 03:47:40.299] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/entity/EntityAmphithere$FlightBehavior
+[12Jun2026 03:47:40.311] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/pathfinding/raycoms/AdvancedPathNavigate$MovementType
+[12Jun2026 03:47:40.327] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/entity/IafDragonAttacks$Air
+[12Jun2026 03:47:40.328] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/entity/IafDragonAttacks$Ground
+[12Jun2026 03:47:40.338] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/entity/ai/MyrmexAIReEnterHive$Phases
+[12Jun2026 03:47:40.358] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/behavior/Behavior$Status
+[12Jun2026 03:47:40.362] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/memory/MemoryStatus
+[12Jun2026 03:47:40.385] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/behavior/GateBehavior$OrderPolicy
+[12Jun2026 03:47:40.387] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/behavior/GateBehavior$RunningPolicy
+[12Jun2026 03:47:40.418] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Display$BillboardConstraints
+[12Jun2026 03:47:40.441] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/monster/SpellcasterIllager$IllagerSpell
+[12Jun2026 03:47:40.443] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/projectile/FishingHook$FishHookState
+[12Jun2026 03:47:40.456] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/frog/ShootTongue$State
+[12Jun2026 03:47:40.482] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/monster/Phantom$AttackPhase
+[12Jun2026 03:47:40.506] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/behavior/CrossbowAttack$CrossbowState
+[12Jun2026 03:47:40.520] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/goal/RangedCrossbowAttackGoal$CrossbowState
+[12Jun2026 03:47:40.602] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/entity/sentry/Sentry$SentryMode
+[12Jun2026 03:47:40.602] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/misc/TargetingMode
+[12Jun2026 03:47:40.620] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/lighting/LayerLightEventListener$DummyLightLayerEventListener
+[12Jun2026 03:47:40.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Jun2026 03:47:40.639] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in modernfix-modernfix.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[12Jun2026 03:47:40.854] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/EmptyBlockGetter
+[12Jun2026 03:47:40.855] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction8
+[12Jun2026 03:47:40.887] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/SupportType
+[12Jun2026 03:47:40.940] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ca/spottedleaf/starlight/common/light/StarLightEngine$AxisDirection
+[12Jun2026 03:47:41.383] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy
+[12Jun2026 03:47:41.874] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jun2026 03:47:41.874] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jun2026 03:47:41.874] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jun2026 03:47:42.142] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[12Jun2026 03:47:42.637] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[12Jun2026 03:47:43.034] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2397 ms
+[12Jun2026 03:47:43.034] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.928s)! For help, type "help"
+[12Jun2026 03:47:43.077] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[12Jun2026 03:47:43.100] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[12Jun2026 03:47:43.100] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[12Jun2026 03:47:43.162] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 14
+[12Jun2026 03:47:43.163] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 17
+[12Jun2026 03:47:43.163] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 16
+[12Jun2026 03:47:43.164] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! Modifiers ready: 28
+[12Jun2026 03:47:43.164] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! config file at: /workspaces/eeeoeoeoe/servidor_minecraft/./config/infernalmobs.cfg
+[12Jun2026 03:47:43.166] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[12Jun2026 03:47:43.174] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at 100.64.188.121:24454
+[12Jun2026 03:47:43.176] [Server thread/WARN] [ModernFix/]: Dedicated server took 40.447 seconds to load
+[12Jun2026 03:47:43.275] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/border/BorderStatus
+[12Jun2026 03:47:43.333] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MoverType
+[12Jun2026 03:47:43.334] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/AbortableIterationConsumer$Continuation
+[12Jun2026 03:47:43.340] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Entity$MovementEmission
+[12Jun2026 03:47:43.341] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/Team$CollisionRule
+[12Jun2026 03:47:43.365] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/profiling/metrics/MetricCategory
+[12Jun2026 03:47:43.469] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/LevelChunk$EntityCreationType
+[12Jun2026 03:47:52.278] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/ClipContext$Block
+[12Jun2026 03:47:52.281] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/phys/HitResult$Type
+[12Jun2026 03:48:08.187] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/PacketFlow
+[12Jun2026 03:48:08.197] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/ConnectionProtocol
+[12Jun2026 03:48:08.214] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundCustomChatCompletionsPacket$Action
+[12Jun2026 03:48:08.232] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundRecipePacket$State
+[12Jun2026 03:48:08.244] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/ServerScoreboard$Method
+[12Jun2026 03:48:08.256] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundClientCommandPacket$Action
+[12Jun2026 03:48:08.257] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/ChatVisiblity
+[12Jun2026 03:48:08.258] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/HumanoidArm
+[12Jun2026 03:48:08.260] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/ClickType
+[12Jun2026 03:48:08.263] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundInteractPacket$ActionType
+[12Jun2026 03:48:08.269] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action
+[12Jun2026 03:48:08.270] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundPlayerCommandPacket$Action
+[12Jun2026 03:48:08.274] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundResourcePackPacket$Action
+[12Jun2026 03:48:08.275] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket$Action
+[12Jun2026 03:48:08.278] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/CommandBlockEntity$Mode
+[12Jun2026 03:48:08.281] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/StructureBlockEntity$UpdateType
+[12Jun2026 03:49:57.068] [Netty Epoll Server IO #3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/ConnectionType
+[12Jun2026 03:49:57.122] [Netty Epoll Server IO #3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/network/ServerLoginPacketListenerImpl$State
+[12Jun2026 03:49:58.093] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Entity$RemovalReason
+[12Jun2026 03:49:58.097] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/ClickAction
+[12Jun2026 03:49:58.098] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/PlayerModelPart
+[12Jun2026 03:49:58.120] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ruizlpt[/100.73.20.7:58228] logged in with entity id 531 at (704.4490346194872, 70.0, -1785.8472808034667)
+[12Jun2026 03:49:58.128] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/filters/VanillaPacketSplitter$RemoteCompatibility
+[12Jun2026 03:49:58.146] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Ruizlpt
+[12Jun2026 03:49:58.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt joined the game
+[12Jun2026 03:49:58.163] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/RelativeMovement
+[12Jun2026 03:49:58.218] [Server thread/INFO] [Jade/]: Syncing config to Ruizlpt (391d6d9a-f1f8-3caf-b830-15fa6e4ae1ac)
+[12Jun2026 03:49:58.222] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/CooldownHandler$CooldownType
+[12Jun2026 03:49:58.292] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/advancements/AdvancementVisibilityEvaluator$VisibilityRule
+[12Jun2026 03:49:58.314] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/renderdata/TankPosition
+[12Jun2026 03:49:58.339] [Netty Epoll Server IO #3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkEvent$RegistrationChangeType
+[12Jun2026 03:49:59.092] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ruizlpt (20)
+[12Jun2026 03:49:59.098] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ruizlpt
+[12Jun2026 03:49:59.181] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 391d6d9a-f1f8-3caf-b830-15fa6e4ae1ac
+[12Jun2026 03:49:59.374] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/capability/ServantEntityImpl$CasterType
+[12Jun2026 03:50:00.180] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 391d6d9a-f1f8-3caf-b830-15fa6e4ae1ac
+[12Jun2026 03:50:00.182] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Ruizlpt (391d6d9a-f1f8-3caf-b830-15fa6e4ae1ac) successfully connected to voice chat
+[12Jun2026 03:50:02.810] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/UseAnim
+[12Jun2026 03:50:03.199] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/citadel/animation/AnimationHandler
+[12Jun2026 03:50:19.947] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/living/LivingChangeTargetEvent$LivingTargetType
+[12Jun2026 03:50:24.459] [Worker-Main-11/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/OreVeinifier$VeinType
+[12Jun2026 03:50:24.815] [Worker-Main-10/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[12Jun2026 03:50:24.830] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/alexsmobs/entity/util/TerrapinTypes
+[12Jun2026 03:50:25.069] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/world/IafWorldData$FeatureType
+[12Jun2026 03:50:26.837] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/citadel/server/entity/pathfinding/raycoms/PathFindingStatus
+[12Jun2026 03:50:26.838] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/citadel/server/entity/pathfinding/raycoms/AbstractAdvancedPathNavigate$RestrictionType
+[12Jun2026 03:50:26.842] [Citadel Pathfinding Worker #0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/citadel/server/entity/pathfinding/raycoms/SurfaceType
+[12Jun2026 03:50:57.935] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/Helper$RomanNumeral
+[12Jun2026 03:51:24.125] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/common/gui/BackpackContext$ContextType
+[12Jun2026 03:51:24.137] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/renderdata/DisplaySide
+[12Jun2026 03:51:52.071] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/common/gui/SortBy
+[12Jun2026 03:52:21.934] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/player/AdvancementEvent$AdvancementProgressEvent$ProgressType
+[12Jun2026 03:52:56.849] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.121.67.88:1689] logged in with entity id 1804 at (1035.9649548901884, 54.0, -1440.8349601964467)
+[12Jun2026 03:52:56.857] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Sl44tx
+[12Jun2026 03:52:56.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
+[12Jun2026 03:52:56.900] [Server thread/INFO] [Jade/]: Syncing config to Sl44tx (9caffe1c-1bc4-3d58-8bfe-120090bc2848)
+[12Jun2026 03:52:58.862] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Disconnected
+[12Jun2026 03:52:58.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
+[12Jun2026 03:52:58.866] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Sl44tx
+[12Jun2026 03:53:37.741] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/Boat$Status
+[12Jun2026 03:53:44.640] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@53b531cb[id=<null>,name=Sl44tx,properties={},legacy=false] (/100.121.67.88:1693) lost connection: Disconnected
+[12Jun2026 03:53:46.347] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.121.67.88:1694] logged in with entity id 2420 at (1035.9649548901884, 54.0, -1440.8349601964467)
+[12Jun2026 03:53:46.355] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Sl44tx
+[12Jun2026 03:53:46.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
+[12Jun2026 03:53:46.382] [Server thread/INFO] [Jade/]: Syncing config to Sl44tx (9caffe1c-1bc4-3d58-8bfe-120090bc2848)
+[12Jun2026 03:53:47.029] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Sl44tx (20)
+[12Jun2026 03:53:47.030] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Sl44tx
+[12Jun2026 03:53:47.179] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/ProjectileImpactEvent$ImpactResult
+[12Jun2026 03:53:48.347] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/gameevent/GameEventListener$DeliveryMode
+[12Jun2026 03:53:51.306] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 9caffe1c-1bc4-3d58-8bfe-120090bc2848
+[12Jun2026 03:53:51.400] [Server thread/WARN] [tombstone/]: The death event of the player Sl44tx was canceled by another mod
+[12Jun2026 03:53:51.400] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 03:53:52.321] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 9caffe1c-1bc4-3d58-8bfe-120090bc2848
+[12Jun2026 03:53:52.321] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Sl44tx (9caffe1c-1bc4-3d58-8bfe-120090bc2848) successfully connected to voice chat
+[12Jun2026 03:53:56.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has reached the goal [Strong or Careful]
+[12Jun2026 03:53:56.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx froze to death
+[12Jun2026 03:53:56.514] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/SpawnHelper$SpawnResult
+[12Jun2026 03:53:56.523] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 03:54:18.791] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/item/ItemCastableMagic$CastingTarget
+[12Jun2026 03:54:37.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt has made the advancement [Chompy]
+[12Jun2026 03:55:42.560] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/gossip/GossipType
+[12Jun2026 03:56:26.109] [Worker-Main-11/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/horse/Markings
+[12Jun2026 03:57:49.756] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/IronGolem$Crackiness
+[12Jun2026 03:59:38.323] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/illusivesoulworks/comforts/common/ComfortsEvents$Result
+[12Jun2026 03:59:38.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt has made the advancement [Sweet Dreams]
+[12Jun2026 04:00:39.942] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/FilterMask$Type
+[12Jun2026 04:00:39.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> ve donde andas?
+[12Jun2026 04:01:08.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ni se
+[12Jun2026 04:01:22.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> [x:1031, y:55, z:-1440, dim:minecraft:overworld]
+[12Jun2026 04:01:24.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ahi
+[12Jun2026 04:01:27.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> te sale?
+[12Jun2026 04:01:51.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> ya
+[12Jun2026 04:04:53.834] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/Level$ExplosionInteraction
+[12Jun2026 04:05:38.586] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/StructureCheckResult
+[12Jun2026 04:06:23.777] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/fluids/capability/IFluidHandler$FluidAction
+[12Jun2026 04:11:28.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has completed the challenge [Free Willy]
+[12Jun2026 04:13:33.372] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:crafting in 2.716 ms. 2484/2534 recipes are parallelized.
+[12Jun2026 04:14:55.937] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting software/bernie/geckolib/core/object/PlayState
+[12Jun2026 04:16:56.851] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Fabros719[/100.76.130.6:52958] logged in with entity id 13194 at (866.3414437602605, 88.0, -1324.2083813725808)
+[12Jun2026 04:16:56.858] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Fabros719
+[12Jun2026 04:16:56.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fabros719 joined the game
+[12Jun2026 04:16:56.883] [Server thread/INFO] [Jade/]: Syncing config to Fabros719 (aeecf5c7-bd57-38a2-9b2d-3fb34262dd88)
+[12Jun2026 04:16:59.193] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Fabros719 (20)
+[12Jun2026 04:16:59.194] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Fabros719
+[12Jun2026 04:17:01.173] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player aeecf5c7-bd57-38a2-9b2d-3fb34262dd88
+[12Jun2026 04:17:02.173] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player aeecf5c7-bd57-38a2-9b2d-3fb34262dd88
+[12Jun2026 04:17:02.173] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Fabros719 (aeecf5c7-bd57-38a2-9b2d-3fb34262dd88) successfully connected to voice chat
+[12Jun2026 04:19:02.305] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting xiroc/dungeoncrawl/dungeon/Tile$Flag
+[12Jun2026 04:20:16.952] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeonelWelsh[/100.110.76.26:56362] logged in with entity id 14999 at (-444.9496900840797, 65.0, -922.0872322859572)
+[12Jun2026 04:20:16.960] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player LeonelWelsh
+[12Jun2026 04:20:16.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh joined the game
+[12Jun2026 04:20:16.971] [Server thread/INFO] [Jade/]: Syncing config to LeonelWelsh (fe78760b-2639-3099-a844-70e31627bdcc)
+[12Jun2026 04:20:18.071] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LeonelWelsh (20)
+[12Jun2026 04:20:18.072] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to LeonelWelsh
+[12Jun2026 04:20:19.710] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player fe78760b-2639-3099-a844-70e31627bdcc
+[12Jun2026 04:20:20.712] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player fe78760b-2639-3099-a844-70e31627bdcc
+[12Jun2026 04:20:20.713] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player LeonelWelsh (fe78760b-2639-3099-a844-70e31627bdcc) successfully connected to voice chat
+[12Jun2026 04:20:23.260] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/pathfinding/raycoms/PathFindingStatus
+[12Jun2026 04:20:23.261] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/pathfinding/raycoms/AbstractAdvancedPathNavigate$RestrictionType
+[12Jun2026 04:20:23.267] [Ice and Fire Pathfinding Worker #0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/pathfinding/raycoms/SurfaceType
+[12Jun2026 04:21:17.861] [Server thread/INFO] [fastsuite/]: Constructed recipe list for minecraft:smelting in 91.70 μs. 156/156 recipes are parallelized.
+[12Jun2026 04:23:22.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> donde andan
+[12Jun2026 04:23:28.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> yo al lado tuyo
+[12Jun2026 04:23:32.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> y pq les sale la conexion tan mala?
+[12Jun2026 04:23:43.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> como al lado mio
+[12Jun2026 04:23:43.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> x mi normla
+[12Jun2026 04:23:45.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ni te veo
+[12Jun2026 04:23:53.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> te pusiste hide?
+[12Jun2026 04:23:58.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> no
+[12Jun2026 04:24:01.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> abri el mapa
+[12Jun2026 04:24:08.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> si lo abri
+[12Jun2026 04:24:10.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> no me sales
+[12Jun2026 04:24:31.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> a no
+[12Jun2026 04:24:37.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> igual no estoy muy lejos de vos
+[12Jun2026 04:24:41.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> estoy al sur me parece
+[12Jun2026 04:24:46.646] [Worker-Main-3/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[12Jun2026 04:24:47.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fabros719 has made the advancement [We Need to Go Deeper]
+[12Jun2026 04:24:49.403] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2926ms or 58 ticks behind
+[12Jun2026 04:24:51.467] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/monster/piglin/PiglinArmPose
+[12Jun2026 04:24:53.178] [Worker-Main-3/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Strider['Strider'/17417, l='ServerLevel[world]', x=159.00, y=102.00, z=-47.00] as it would cause deadlock
+[12Jun2026 04:24:57.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> no
+[12Jun2026 04:25:01.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> no
+[12Jun2026 04:25:02.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> no
+[12Jun2026 04:25:16.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> me rompieron el portal
+[12Jun2026 04:25:20.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> ghast de mierda
+[12Jun2026 04:25:28.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ah ya estabas en el nether?
+[12Jun2026 04:25:32.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> hice el logro
+[12Jun2026 04:25:37.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> y me recibieron unos ghast
+[12Jun2026 04:25:40.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> que
+[12Jun2026 04:25:42.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> merecido
+[12Jun2026 04:25:43.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> fueron al nether?
+[12Jun2026 04:25:46.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> te voy a bloquear eso
+[12Jun2026 04:25:47.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> fui
+[12Jun2026 04:25:48.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> de vdd
+[12Jun2026 04:25:56.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> pero me encontre un portal en ruinas
+[12Jun2026 04:26:03.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> y lo terminaste
+[12Jun2026 04:26:04.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> queria ver a donde me llevaba
+[12Jun2026 04:26:09.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> a donde te iba a llevar
+[12Jun2026 04:26:15.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> pero me refiero
+[12Jun2026 04:26:18.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> el spawn
+[12Jun2026 04:27:05.041] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/15011, l='ServerLevel[world]', x=-403.32, y=68.00, z=-955.70] died, message: 'Unemployed was slain by Zombie'
+[12Jun2026 04:28:01.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> en la mochila tenia pedernal
+[12Jun2026 04:28:03.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> ahi regreso
+[12Jun2026 04:30:05.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> andres
+[12Jun2026 04:30:08.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> si vas al sur
+[12Jun2026 04:30:11.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> me ves
+[12Jun2026 04:31:37.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> y leo?
+[12Jun2026 04:31:42.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> se perdio
+[12Jun2026 04:31:50.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> y ruiz?
+[12Jun2026 04:31:53.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> tmb
+[12Jun2026 04:32:02.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> donde mrd estan
+[12Jun2026 04:32:11.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> y mari?
+[12Jun2026 04:32:11.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> yo en una aldea
+[12Jun2026 04:32:18.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> mari se fue a dormir
+[12Jun2026 04:32:24.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> que va a dormir
+[12Jun2026 04:32:25.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> esa loca
+[12Jun2026 04:32:29.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> es como un murcielago
+[12Jun2026 04:32:54.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> uy
+[12Jun2026 04:33:02.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> andres
+[12Jun2026 04:33:05.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> si ves el portal
+[12Jun2026 04:33:08.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> no entres
+[12Jun2026 04:33:16.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> pq no vas a salir
+[12Jun2026 04:33:23.700] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/StrongholdPieces$StrongholdPiece$SmallDoorType
+[12Jun2026 04:33:34.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> jueputa me robo un hada
+[12Jun2026 04:33:39.266] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeonelWelsh lost connection: Disconnected
+[12Jun2026 04:33:39.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh left the game
+[12Jun2026 04:33:39.267] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LeonelWelsh
+[12Jun2026 04:34:15.806] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeonelWelsh[/100.110.76.26:56464] logged in with entity id 24215 at (-503.30898855762774, 62.07326432466506, -753.5880493723168)
+[12Jun2026 04:34:15.811] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player LeonelWelsh
+[12Jun2026 04:34:15.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh joined the game
+[12Jun2026 04:34:15.814] [Server thread/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Boat['Boat'/24216, l='ServerLevel[world]', x=-503.31, y=62.52, z=-753.59] as it would cause deadlock
+[12Jun2026 04:34:15.887] [Server thread/INFO] [Jade/]: Syncing config to LeonelWelsh (fe78760b-2639-3099-a844-70e31627bdcc)
+[12Jun2026 04:34:17.222] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LeonelWelsh (20)
+[12Jun2026 04:34:17.223] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to LeonelWelsh
+[12Jun2026 04:34:19.045] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player fe78760b-2639-3099-a844-70e31627bdcc
+[12Jun2026 04:34:20.045] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player fe78760b-2639-3099-a844-70e31627bdcc
+[12Jun2026 04:34:20.047] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player LeonelWelsh (fe78760b-2639-3099-a844-70e31627bdcc) successfully connected to voice chat
+[12Jun2026 04:34:21.656] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/goal/BoatGoals
+[12Jun2026 04:34:22.815] [Server thread/WARN] [tombstone/]: The death event of the player Fabros719 was canceled by another mod
+[12Jun2026 04:34:22.832] [Server thread/INFO] [tombstone/]: The player Fabros719 has successfully been saved
+[12Jun2026 04:34:28.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> pasa point leo
+[12Jun2026 04:34:32.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> q forro
+[12Jun2026 04:34:35.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> como no lo vi
+[12Jun2026 04:34:41.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> que carajo
+[12Jun2026 04:34:48.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> el dragon amrino de ice and fire
+[12Jun2026 04:35:09.399] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx moved wrongly!
+[12Jun2026 04:35:12.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> [name:"aldea", x:-464, y:63, z:-865, dim:minecraft:overworld]
+[12Jun2026 04:35:25.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> no lo viste pq es infernal
+[12Jun2026 04:35:28.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> y hace tp
+[12Jun2026 04:35:35.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> q
+[12Jun2026 04:35:53.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> no lo mat
+[12Jun2026 04:35:59.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> solo le di una vez y se fue el
+[12Jun2026 04:36:04.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> el ciclope
+[12Jun2026 04:36:09.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> dragon
+[12Jun2026 04:36:10.148] [Server thread/WARN] [tombstone/]: The death event of the player Fabros719 was canceled by another mod
+[12Jun2026 04:36:10.151] [Server thread/INFO] [tombstone/]: The player Fabros719 has successfully been saved
+[12Jun2026 04:36:10.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> hielo
+[12Jun2026 04:36:30.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> pera
+[12Jun2026 04:37:16.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> tienes flechas?
+[12Jun2026 04:37:23.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> no
+[12Jun2026 04:37:29.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> pa donde van?
+[12Jun2026 04:37:36.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> peleando con
+[12Jun2026 04:37:41.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> un dragon
+[12Jun2026 04:37:48.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> donde pa llegar
+[12Jun2026 04:37:50.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> si tengo
+[12Jun2026 04:37:56.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt has made the advancement [Enchanter]
+[12Jun2026 04:37:56.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> [x:1535, y:96, z:-945, dim:minecraft:overworld]
+[12Jun2026 04:38:02.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fabros719 has made the advancement [Ol' Betsy]
+[12Jun2026 04:38:03.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> dame
+[12Jun2026 04:38:17.511] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of LeonelWelsh) moved wrongly! 0.29201749263518195
+[12Jun2026 04:38:45.744] [Server thread/WARN] [tombstone/]: The death event of the player Fabros719 was canceled by another mod
+[12Jun2026 04:38:45.756] [Server thread/INFO] [tombstone/]: The player Fabros719 has successfully been saved
+[12Jun2026 04:38:59.609] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Drowned['Drowned'/29307, l='ServerLevel[world]', x=-554.50, y=40.00, z=-480.50]
+[12Jun2026 04:39:03.102] [Server thread/WARN] [tombstone/]: The death event of the player Sl44tx was canceled by another mod
+[12Jun2026 04:39:03.105] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 04:39:09.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx was frozen by a dragon
+[12Jun2026 04:39:19.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> vy
+[12Jun2026 04:39:19.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fabros719 was slain by Ice Dragon
+[12Jun2026 04:39:22.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> NOOO SIRENAS
+[12Jun2026 04:39:25.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> voy en camino esta lejos
+[12Jun2026 04:39:53.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> a donde se fue el dragon?
+[12Jun2026 04:39:58.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> estaba tocado
+[12Jun2026 04:40:13.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> pueden dormir?
+[12Jun2026 04:40:20.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> si
+[12Jun2026 04:40:33.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> LeonelWelsh
+[12Jun2026 04:40:36.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> f
+[12Jun2026 04:40:40.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> Fabros719
+[12Jun2026 04:40:43.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> q
+[12Jun2026 04:40:51.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> yo no
+[12Jun2026 04:41:07.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> tengo 2 sirenas, un dragon marino y zombies ahogados
+[12Jun2026 04:41:17.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> izi
+[12Jun2026 04:41:20.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> 2 dragones marinos
+[12Jun2026 04:41:58.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> necesito matar a ese dragon
+[12Jun2026 04:42:14.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> donde esta
+[12Jun2026 04:42:20.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ni idea
+[12Jun2026 04:43:35.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> esta aca arriba
+[12Jun2026 04:44:14.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> eso veo jeje
+[12Jun2026 04:44:28.486] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 04:44:28.498] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 04:44:36.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> maldita
+[12Jun2026 04:44:37.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> pa que necesitas matarlo
+[12Jun2026 04:44:52.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> como abria el arbol de habildiades
+[12Jun2026 04:44:56.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> habia uno
+[12Jun2026 04:45:02.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> q me habia dejado abrir algo asi
+[12Jun2026 04:45:04.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> el look
+[12Jun2026 04:45:07.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fabros719 has made the advancement [Best Friends Forever]
+[12Jun2026 04:45:08.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> q boton
+[12Jun2026 04:45:21.095] [Server thread/WARN] [tombstone/]: The death event of the player Sl44tx was canceled by another mod
+[12Jun2026 04:45:21.108] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 04:45:24.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> esta tocado
+[12Jun2026 04:45:28.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> 40 corazones
+[12Jun2026 04:45:28.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was slain by Sea Serpent
+[12Jun2026 04:45:38.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> QUE SUERTE CARAJO LLAVE ENCANTADA
+[12Jun2026 04:45:46.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx fell from a high place
+[12Jun2026 04:45:46.069] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 04:45:50.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> Ñ,SFAÑAFSLÑAFSÑLASFLÑ
+[12Jun2026 04:45:52.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> mano?
+[12Jun2026 04:45:55.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> flasñlfaslafslñasf
+[12Jun2026 04:45:57.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> qrisa
+[12Jun2026 04:46:35.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh has reached the goal [Discreet Search]
+[12Jun2026 04:47:01.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sl44tx: Gave 20 [Arrow] to Sl44tx]
+[12Jun2026 04:47:42.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> que solto?
+[12Jun2026 04:47:50.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> lo de siempre
+[12Jun2026 04:47:52.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> piel
+[12Jun2026 04:47:55.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> y hueso
+[12Jun2026 04:48:00.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> pero le robe sangre
+[12Jun2026 04:48:05.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> ahora
+[12Jun2026 04:48:06.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> aunq solo uno
+[12Jun2026 04:48:09.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> hace la espada de hueso
+[12Jun2026 04:48:11.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> pq lo terminaste de arrancas
+[12Jun2026 04:48:13.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> sip
+[12Jun2026 04:48:14.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> y como se roba sangre?
+[12Jun2026 04:48:19.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> con una botella
+[12Jun2026 04:48:43.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> la piel era lo mas importante
+[12Jun2026 04:48:45.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> otro nido de hielo
+[12Jun2026 04:48:47.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> y ni se donde quedo
+[12Jun2026 04:48:54.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> f
+[12Jun2026 04:49:02.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> cuanta piel necesita?
+[12Jun2026 04:49:17.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> no se para hacer armadura
+[12Jun2026 04:49:20.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> y matar otro
+[12Jun2026 04:49:33.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> me dejo desnudo
+[12Jun2026 04:49:46.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> en el mapa sale uno de fuego
+[12Jun2026 04:49:56.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> yo encontre un nido de dragon
+[12Jun2026 04:50:01.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> en la cima de una montaña
+[12Jun2026 04:50:10.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> como te salen
+[12Jun2026 04:50:20.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> en el mapa
+[12Jun2026 04:51:11.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> te salen marcados o como?>
+[12Jun2026 04:51:22.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> [name:"Temp: 1215, -528", x:1215, y:108, z:-528, dim:minecraft:overworld]
+[12Jun2026 04:51:24.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ahi sale
+[12Jun2026 04:51:25.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> no
+[12Jun2026 04:51:29.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> se ven las estructuras
+[12Jun2026 04:51:33.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> aah ya
+[12Jun2026 04:51:36.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> y para alla voy
+[12Jun2026 04:51:40.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> a mira
+[12Jun2026 04:51:47.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [A Flaming Sword]
+[12Jun2026 04:53:22.401] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 04:53:22.428] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 04:53:28.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was frozen by a dragon
+[12Jun2026 04:53:48.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ontan?
+[12Jun2026 04:54:00.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> leo andas en narnia
+[12Jun2026 04:54:04.642] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 04:54:04.651] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 04:54:10.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was frozen by a dragon
+[12Jun2026 04:54:13.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> si
+[12Jun2026 04:54:37.952] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 04:54:37.964] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 04:54:43.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was slain by Ice Dragon
+[12Jun2026 04:55:13.447] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 04:55:13.449] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 04:55:19.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was pricked to death
+[12Jun2026 04:55:25.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> y si pasas coord?
+[12Jun2026 04:55:46.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> o check
+[12Jun2026 04:55:47.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> o algo
+[12Jun2026 04:56:17.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> ya lo mate
+[12Jun2026 04:56:21.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> voy
+[12Jun2026 04:56:25.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> [name:"nido hielo2", x:-1137, y:161, z:-402, dim:minecraft:overworld]
+[12Jun2026 04:57:36.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> estan muy muy lejos?
+[12Jun2026 04:57:47.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> voy a mataar a uno de fuego en
+[12Jun2026 04:57:54.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> [x:1360, y:139, z:-612, dim:minecraft:overworld]
+[12Jun2026 04:58:20.616] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/settings/main/Context
+[12Jun2026 04:58:51.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> no jodas
+[12Jun2026 04:58:56.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> a este ya lo habiamos matado
+[12Jun2026 04:59:08.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> todo el nido looteado
+[12Jun2026 04:59:26.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> yo
+[12Jun2026 04:59:26.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> jaj
+[12Jun2026 04:59:29.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> ya me voy
+[12Jun2026 04:59:41.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> ya alto sueño
+[12Jun2026 04:59:51.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> nos vemoss
+[12Jun2026 04:59:58.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Fabros719> nos vimos
+[12Jun2026 05:00:00.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> ah pero estan en la loma del culo
+[12Jun2026 05:00:01.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> nv
+[12Jun2026 05:00:05.451] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Fabros719 lost connection: Disconnected
+[12Jun2026 05:00:05.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Fabros719 left the game
+[12Jun2026 05:00:05.452] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Fabros719
+[12Jun2026 05:00:05.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ruizep jamas hablo de nuevo
+[12Jun2026 05:00:40.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> andaba buscandia rena
+[12Jun2026 05:00:42.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> arena
+[12Jun2026 05:01:34.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> y si dormimos
+[12Jun2026 05:01:36.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> ?
+[12Jun2026 05:01:37.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> si
+[12Jun2026 05:02:04.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> zzz
+[12Jun2026 05:02:17.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> zzz
+[12Jun2026 05:02:26.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> no tengo cama jueperras
+[12Jun2026 05:02:26.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> zzz
+[12Jun2026 05:02:27.296] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeonelWelsh lost connection: Disconnected
+[12Jun2026 05:02:27.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh left the game
+[12Jun2026 05:02:27.297] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LeonelWelsh
+[12Jun2026 05:02:38.116] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeonelWelsh[/100.110.76.26:56540] logged in with entity id 51225 at (-1334.1049699301166, 100.0, -317.438051479756)
+[12Jun2026 05:02:38.122] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player LeonelWelsh
+[12Jun2026 05:02:38.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh joined the game
+[12Jun2026 05:02:38.131] [Server thread/INFO] [Jade/]: Syncing config to LeonelWelsh (fe78760b-2639-3099-a844-70e31627bdcc)
+[12Jun2026 05:02:38.576] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LeonelWelsh (20)
+[12Jun2026 05:02:38.577] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to LeonelWelsh
+[12Jun2026 05:02:39.191] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player fe78760b-2639-3099-a844-70e31627bdcc
+[12Jun2026 05:02:40.188] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player fe78760b-2639-3099-a844-70e31627bdcc
+[12Jun2026 05:02:40.189] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player LeonelWelsh (fe78760b-2639-3099-a844-70e31627bdcc) successfully connected to voice chat
+[12Jun2026 05:04:06.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> otro nido de dragon
+[12Jun2026 05:04:11.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> de hielo
+[12Jun2026 05:04:11.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> voy
+[12Jun2026 05:04:53.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> sigues por la misma coord?
+[12Jun2026 05:05:03.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> n
+[12Jun2026 05:05:09.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> [name:"nido dragon 3", x:-1648, y:150, z:-383, dim:minecraft:overworld]
+[12Jun2026 05:05:27.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> diosito
+[12Jun2026 05:05:34.035] [Server thread/WARN] [tombstone/]: The death event of the player Ruizlpt was canceled by another mod
+[12Jun2026 05:05:34.046] [Server thread/INFO] [tombstone/]: The player Ruizlpt has successfully been saved
+[12Jun2026 05:05:45.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt was frozen by a dragon
+[12Jun2026 05:06:08.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sl44tx: Gave 120 [Cobblestone] to Sl44tx]
+[12Jun2026 05:06:37.487] [Server thread/WARN] [tombstone/]: The death event of the player Ruizlpt was canceled by another mod
+[12Jun2026 05:06:37.496] [Server thread/INFO] [tombstone/]: The player Ruizlpt has successfully been saved
+[12Jun2026 05:06:43.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt has reached the goal [Chain Death]
+[12Jun2026 05:06:43.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt was slain by Ice Dragon
+[12Jun2026 05:06:58.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> uy que
+[12Jun2026 05:07:54.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> leo me tiene atravesando el mar
+[12Jun2026 05:08:09.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> estoy en la mierda
+[12Jun2026 05:08:13.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> se me dano la cama
+[12Jun2026 05:08:40.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> la mala suerte en persona
+[12Jun2026 05:08:49.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sl44tx: Teleported Ruizlpt to Sl44tx]
+[12Jun2026 05:08:58.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> Venga
+[12Jun2026 05:09:00.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> vea
+[12Jun2026 05:09:02.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> mano me alejo mas
+[12Jun2026 05:09:20.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> thanks
+[12Jun2026 05:09:59.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> 2000 bloque
+[12Jun2026 05:10:40.857] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/projectile/FishingHook$OpenWaterType
+[12Jun2026 05:11:46.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> uy no
+[12Jun2026 05:11:48.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> hay una mierda
+[12Jun2026 05:11:52.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh has made the advancement [Fishy Business]
+[12Jun2026 05:11:52.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> de serpiente
+[12Jun2026 05:11:55.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> grandisima
+[12Jun2026 05:12:00.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> jajaj una azul?
+[12Jun2026 05:12:03.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> SI
+[12Jun2026 05:12:08.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> esta tocada esa
+[12Jun2026 05:12:12.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> tocada
+[12Jun2026 05:12:16.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> 250/250
+[12Jun2026 05:12:18.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> LKLKASFLKAFSLKA
+[12Jun2026 05:12:20.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> ah entonces no es
+[12Jun2026 05:12:33.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> o se regeneró
+[12Jun2026 05:12:48.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> no se pero la voy a matar
+[12Jun2026 05:12:59.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> esa de un salto me quito toa la vida socio
+[12Jun2026 05:13:13.436] [Server thread/WARN] [tombstone/]: The death event of the player Sl44tx was canceled by another mod
+[12Jun2026 05:13:13.445] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 05:13:15.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> a
+[12Jun2026 05:13:20.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> efectivamente
+[12Jun2026 05:13:23.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> el salto del tigre
+[12Jun2026 05:13:25.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx was slain by Sea Serpent
+[12Jun2026 05:13:50.441] [Server thread/WARN] [tombstone/]: The death event of the player Sl44tx was canceled by another mod
+[12Jun2026 05:13:50.448] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 05:13:54.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> UY NO
+[12Jun2026 05:13:59.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ME ESTA CAMPEANDO
+[12Jun2026 05:14:02.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> EL SPWAN
+[12Jun2026 05:14:10.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx was slain by Sea Serpent
+[12Jun2026 05:14:42.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> espera que se pelee con una ballena o algo
+[12Jun2026 05:14:45.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> y sali rajando
+[12Jun2026 05:14:57.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> no hay balleta que mate eso
+[12Jun2026 05:15:03.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> esa porqueria es grandisima
+[12Jun2026 05:15:46.665] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ruizlpt moved too quickly! 9.682873398578067,0.24918707874468282,-3.2222209310618837
+[12Jun2026 05:15:46.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> ya se pero
+[12Jun2026 05:15:49.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> mientras se pelea
+[12Jun2026 05:15:50.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> vos escapa
+[12Jun2026 05:16:10.596] [Server thread/WARN] [tombstone/]: The death event of the player Ruizlpt was canceled by another mod
+[12Jun2026 05:16:10.603] [Server thread/INFO] [tombstone/]: The player Ruizlpt has successfully been saved
+[12Jun2026 05:16:15.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> jueputa
+[12Jun2026 05:16:38.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> agh
+[12Jun2026 05:16:43.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Sea? Not a Problem]
+[12Jun2026 05:16:46.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt was slain by Zombie
+[12Jun2026 05:16:47.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> GRAN PERRA
+[12Jun2026 05:16:49.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt has made the advancement [The Most Useful Key]
+[12Jun2026 05:17:53.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ahora si
+[12Jun2026 05:17:56.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ya voy leo
+[12Jun2026 05:20:12.494] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Disconnected
+[12Jun2026 05:20:12.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
+[12Jun2026 05:20:12.494] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Sl44tx
+[12Jun2026 05:21:43.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> zz?
+[12Jun2026 05:21:47.804] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.121.67.88:1826] logged in with entity id 70483 at (-1408.0731705316734, 104.0, -370.29529955600475)
+[12Jun2026 05:21:47.809] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Sl44tx
+[12Jun2026 05:21:47.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
+[12Jun2026 05:21:47.853] [Server thread/INFO] [Jade/]: Syncing config to Sl44tx (9caffe1c-1bc4-3d58-8bfe-120090bc2848)
+[12Jun2026 05:21:50.854] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Sl44tx (20)
+[12Jun2026 05:21:50.855] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Sl44tx
+[12Jun2026 05:21:55.840] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 9caffe1c-1bc4-3d58-8bfe-120090bc2848
+[12Jun2026 05:21:56.868] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 9caffe1c-1bc4-3d58-8bfe-120090bc2848
+[12Jun2026 05:21:56.868] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Sl44tx (9caffe1c-1bc4-3d58-8bfe-120090bc2848) successfully connected to voice chat
+[12Jun2026 05:22:47.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt has reached the goal [A Fast Comeback]
+[12Jun2026 05:24:06.284] [Server thread/WARN] [tombstone/]: The death event of the player Sl44tx was canceled by another mod
+[12Jun2026 05:24:06.295] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 05:24:13.337] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 05:24:13.347] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 05:24:16.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx was slain by Ice Dragon
+[12Jun2026 05:24:21.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was frozen by a dragon
+[12Jun2026 05:24:31.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Quickly Applied]
+[12Jun2026 05:24:47.729] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 05:24:47.737] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 05:24:53.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was turned to ice by a dragon
+[12Jun2026 05:24:54.884] [Server thread/WARN] [tombstone/]: The death event of the player Sl44tx was canceled by another mod
+[12Jun2026 05:24:54.891] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 05:25:00.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx suffocated in a wall
+[12Jun2026 05:25:00.922] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 05:25:44.799] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Disconnected
+[12Jun2026 05:25:44.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
+[12Jun2026 05:25:44.800] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Sl44tx
+[12Jun2026 05:25:47.913] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.121.67.88:1835] logged in with entity id 75087 at (-1589.0039448290042, 145.14942408821366, -399.16846407041743)
+[12Jun2026 05:25:47.919] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Sl44tx
+[12Jun2026 05:25:47.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
+[12Jun2026 05:25:47.942] [Server thread/INFO] [Jade/]: Syncing config to Sl44tx (9caffe1c-1bc4-3d58-8bfe-120090bc2848)
+[12Jun2026 05:25:48.706] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Sl44tx (20)
+[12Jun2026 05:25:48.707] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Sl44tx
+[12Jun2026 05:26:05.220] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 9caffe1c-1bc4-3d58-8bfe-120090bc2848
+[12Jun2026 05:26:06.204] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 9caffe1c-1bc4-3d58-8bfe-120090bc2848
+[12Jun2026 05:26:06.204] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Sl44tx (9caffe1c-1bc4-3d58-8bfe-120090bc2848) successfully connected to voice chat
+[12Jun2026 05:26:57.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sl44tx: Gave 38 [Arrow] to Sl44tx]
+[12Jun2026 05:27:35.341] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 05:27:35.343] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 05:27:41.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was frozen by a dragon
+[12Jun2026 05:27:51.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sl44tx: Gave 5 [Golden Apple] to Sl44tx]
+[12Jun2026 05:30:03.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt has made the advancement [Dragonslayer]
+[12Jun2026 05:31:19.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> como se le saca la piel o como es es?
+[12Jun2026 05:31:23.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> click derecho
+[12Jun2026 05:31:27.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> la piel es dandole click derecho
+[12Jun2026 05:31:33.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> listo
+[12Jun2026 05:33:56.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt has made the advancement [A Flaming Sword]
+[12Jun2026 05:34:21.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> tene comida?
+[12Jun2026 05:34:51.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> zzz
+[12Jun2026 05:34:58.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> leo dormi
+[12Jun2026 05:34:58.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> zzz
+[12Jun2026 05:35:01.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> pobre de mierda
+[12Jun2026 05:35:17.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> pobre vos q me rateas la piel de dragon
+[12Jun2026 05:35:31.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> pero si me diste 7
+[12Jun2026 05:35:33.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> tacaño
+[12Jun2026 05:35:42.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> de los 10 q me dio
+[12Jun2026 05:35:43.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> gil
+[12Jun2026 05:36:01.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ok donde estas
+[12Jun2026 05:36:03.404] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumBestiaryPages
+[12Jun2026 05:36:06.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> te doy algo
+[12Jun2026 05:36:10.356] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeonelWelsh lost connection: Disconnected
+[12Jun2026 05:36:10.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh left the game
+[12Jun2026 05:36:10.357] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LeonelWelsh
+[12Jun2026 05:36:47.364] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LeonelWelsh[/100.110.76.26:56682] logged in with entity id 81449 at (-1948.1041008796706, 121.0, -285.47592364654975)
+[12Jun2026 05:36:47.372] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player LeonelWelsh
+[12Jun2026 05:36:47.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh joined the game
+[12Jun2026 05:36:47.391] [Server thread/INFO] [Jade/]: Syncing config to LeonelWelsh (fe78760b-2639-3099-a844-70e31627bdcc)
+[12Jun2026 05:36:48.767] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of LeonelWelsh (20)
+[12Jun2026 05:36:48.768] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to LeonelWelsh
+[12Jun2026 05:36:50.666] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player fe78760b-2639-3099-a844-70e31627bdcc
+[12Jun2026 05:36:51.672] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player fe78760b-2639-3099-a844-70e31627bdcc
+[12Jun2026 05:36:51.672] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player LeonelWelsh (fe78760b-2639-3099-a844-70e31627bdcc) successfully connected to voice chat
+[12Jun2026 05:37:02.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> veni te devuelvo algo
+[12Jun2026 05:37:05.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> pal oeste de ahi
+[12Jun2026 05:38:06.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> x:-1839, y:141, z:-353, dim:minecraft:overworld]
+[12Jun2026 05:38:11.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> [x:-1839, y:141, z:-353, dim:minecraft:overworld]
+[12Jun2026 05:38:17.196] [Server thread/WARN] [tombstone/]: The death event of the player Ruizlpt was canceled by another mod
+[12Jun2026 05:38:17.230] [Server thread/INFO] [tombstone/]: The player Ruizlpt has successfully been saved
+[12Jun2026 05:38:23.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt was frozen by a dragon
+[12Jun2026 05:38:31.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> cual oeste
+[12Jun2026 05:38:34.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> eso es norte
+[12Jun2026 05:38:45.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> pero del nido del dragon es el oeste
+[12Jun2026 05:39:23.291] [Server thread/WARN] [tombstone/]: The death event of the player Ruizlpt was canceled by another mod
+[12Jun2026 05:39:23.300] [Server thread/INFO] [tombstone/]: The player Ruizlpt has successfully been saved
+[12Jun2026 05:39:30.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt was slain by Ice Dragon
+[12Jun2026 05:39:42.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt has reached the goal [Here They Come]
+[12Jun2026 05:39:49.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> tenes un esqueleto de whiter'
+[12Jun2026 05:39:51.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> ?
+[12Jun2026 05:41:25.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> cual es la mejor armadura de dragon?
+[12Jun2026 05:41:35.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> son iguales todas
+[12Jun2026 05:41:36.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> dan lo mismo creo
+[12Jun2026 05:41:36.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> pero
+[12Jun2026 05:41:39.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> solo cambia el color
+[12Jun2026 05:41:46.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> pero?
+[12Jun2026 05:41:48.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> la de hielo te protege del fuego
+[12Jun2026 05:41:54.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> y la de fuego del hielo
+[12Jun2026 05:43:54.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> no encuentro ningun lugar q diga
+[12Jun2026 05:43:56.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> wao pa la casa
+[12Jun2026 05:44:22.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> otro nid
+[12Jun2026 05:44:25.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> es que no hemos visto buenos biomas
+[12Jun2026 05:44:26.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> boi
+[12Jun2026 05:44:38.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> ok mira hacemos trato
+[12Jun2026 05:44:47.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> la piel de qcolor te doy
+[12Jun2026 05:45:19.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> no entendi
+[12Jun2026 05:45:21.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> q trato quieres
+[12Jun2026 05:45:36.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> tipo q cambiemos las pieles de dragon cuando consigamos mas
+[12Jun2026 05:45:42.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> asi nos armamos la completa
+[12Jun2026 05:45:45.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> mas rapido
+[12Jun2026 05:46:29.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> ve como se consigue esa ice dragon forgwe
+[12Jun2026 05:46:48.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> forge?
+[12Jun2026 05:46:51.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> sisas
+[12Jun2026 05:46:54.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> Forja
+[12Jun2026 05:46:59.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> es muy caro hacer eso
+[12Jun2026 05:47:08.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> y hay que domesticar dragones
+[12Jun2026 05:47:11.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> y no te sirve creo hasta que notengas dragon
+[12Jun2026 05:47:12.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> eso
+[12Jun2026 05:47:12.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> para transformar el lingote con la sangre del dragon
+[12Jun2026 05:47:14.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> eso es lit lo ultimo del mod
+[12Jun2026 05:50:55.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> donde deje la cama
+[12Jun2026 05:51:26.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> donde
+[12Jun2026 05:51:49.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> por alla creo
+[12Jun2026 05:51:57.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> si veniamos de la aldea
+[12Jun2026 05:52:56.738] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 05:52:56.741] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 05:53:05.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was shot by Skeleton
+[12Jun2026 05:53:15.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> qpaso
+[12Jun2026 05:53:16.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> KLSAFLFA,SLAFS
+[12Jun2026 05:53:21.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> me mate pa respawnea
+[12Jun2026 05:53:27.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> ya latengo
+[12Jun2026 05:53:49.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> voy pal noroeste
+[12Jun2026 05:54:16.752] [Worker-Main-3/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/alexthe666/iceandfire/enums/EnumHippogryphTypes
+[12Jun2026 05:54:50.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> volvi
+[12Jun2026 05:54:53.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> donde estas?
+[12Jun2026 05:55:09.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> [x:-2124, y:88, z:-123, dim:minecraft:overworld]
+[12Jun2026 05:58:49.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> necesito transporte
+[12Jun2026 05:58:53.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> me canse de correr
+[12Jun2026 05:58:56.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> como loquito
+[12Jun2026 05:59:00.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> barco
+[12Jun2026 05:59:20.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> voy a buscar una jungla
+[12Jun2026 05:59:22.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> voy por el mar aunq sea juguete
+[12Jun2026 06:01:06.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh has reached the goal [Great minds think alike]
+[12Jun2026 06:01:09.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> QUE
+[12Jun2026 06:02:29.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> anda mirando el mapa
+[12Jun2026 06:02:32.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> si ves algo
+[12Jun2026 06:02:40.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> DALE
+[12Jun2026 06:03:22.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> uh mira
+[12Jun2026 06:03:25.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> eso es de los ciclopes
+[12Jun2026 06:03:34.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> siis
+[12Jun2026 06:03:36.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> hay uno
+[12Jun2026 06:03:39.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> q hacemo
+[12Jun2026 06:03:39.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> amatarlo
+[12Jun2026 06:03:51.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> Q lag me esta dando
+[12Jun2026 06:04:13.891] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 06:04:13.901] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 06:04:25.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was slain by Cyclops
+[12Jun2026 06:04:53.039] [Server thread/WARN] [tombstone/]: The death event of the player Ruizlpt was canceled by another mod
+[12Jun2026 06:04:53.052] [Server thread/INFO] [tombstone/]: The player Ruizlpt has successfully been saved
+[12Jun2026 06:05:02.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt was frozen by a dragon
+[12Jun2026 06:05:05.370] [Server thread/WARN] [tombstone/]: The death event of the player Sl44tx was canceled by another mod
+[12Jun2026 06:05:05.371] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 06:05:09.286] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 06:05:09.301] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 06:05:11.745] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ruizlpt was kicked for floating too long!
+[12Jun2026 06:05:11.793] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ruizlpt lost connection: Flying is not enabled on this server
+[12Jun2026 06:05:11.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt left the game
+[12Jun2026 06:05:11.794] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ruizlpt
+[12Jun2026 06:05:13.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx was doomed to fall
+[12Jun2026 06:05:15.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was slain by Cyclops
+[12Jun2026 06:05:15.965] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ruizlpt[/100.73.20.7:63087] logged in with entity id 107671 at (2201.2610250935713, 80.28549238931866, -1067.56745042401)
+[12Jun2026 06:05:15.972] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Ruizlpt
+[12Jun2026 06:05:15.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt joined the game
+[12Jun2026 06:05:15.975] [Server thread/INFO] [Jade/]: Syncing config to Ruizlpt (391d6d9a-f1f8-3caf-b830-15fa6e4ae1ac)
+[12Jun2026 06:05:16.128] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Ruizlpt (20)
+[12Jun2026 06:05:16.129] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Ruizlpt
+[12Jun2026 06:05:16.581] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 391d6d9a-f1f8-3caf-b830-15fa6e4ae1ac
+[12Jun2026 06:05:17.577] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 391d6d9a-f1f8-3caf-b830-15fa6e4ae1ac
+[12Jun2026 06:05:17.578] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Ruizlpt (391d6d9a-f1f8-3caf-b830-15fa6e4ae1ac) successfully connected to voice chat
+[12Jun2026 06:05:19.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> esta lag el serv
+[12Jun2026 06:05:22.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> o soy yo?
+[12Jun2026 06:05:30.124] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 06:05:30.125] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 06:05:36.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was doomed to fall by Cyclops
+[12Jun2026 06:05:59.948] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 06:05:59.949] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 06:06:06.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh suffocated in a wall
+[12Jun2026 06:06:07.964] [Server thread/WARN] [tombstone/]: The death event of the player Sl44tx was canceled by another mod
+[12Jun2026 06:06:07.967] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 06:06:15.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx suffocated in a wall
+[12Jun2026 06:06:19.469] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 06:06:19.475] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 06:06:25.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was doomed to fall by Cyclops
+[12Jun2026 06:06:25.980] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Disconnected
+[12Jun2026 06:06:25.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
+[12Jun2026 06:06:25.981] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Sl44tx
+[12Jun2026 06:06:29.954] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.121.67.88:1888] logged in with entity id 111606 at (1514.5, 95.0, -922.5)
+[12Jun2026 06:06:29.958] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Sl44tx
+[12Jun2026 06:06:29.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
+[12Jun2026 06:06:29.968] [Server thread/INFO] [Jade/]: Syncing config to Sl44tx (9caffe1c-1bc4-3d58-8bfe-120090bc2848)
+[12Jun2026 06:06:30.864] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Sl44tx (20)
+[12Jun2026 06:06:30.865] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Sl44tx
+[12Jun2026 06:06:34.698] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 9caffe1c-1bc4-3d58-8bfe-120090bc2848
+[12Jun2026 06:06:35.673] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 9caffe1c-1bc4-3d58-8bfe-120090bc2848
+[12Jun2026 06:06:35.673] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Sl44tx (9caffe1c-1bc4-3d58-8bfe-120090bc2848) successfully connected to voice chat
+[12Jun2026 06:06:38.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> leooooooo
+[12Jun2026 06:06:38.942] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 06:06:38.952] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 06:06:45.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was slain by Cyclops
+[12Jun2026 06:06:47.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> q
+[12Jun2026 06:06:54.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ta lag el serv o soy yo'
+[12Jun2026 06:06:56.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ?
+[12Jun2026 06:07:00.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> sos vos creo
+[12Jun2026 06:07:17.238] [Server thread/WARN] [tombstone/]: The death event of the player LeonelWelsh was canceled by another mod
+[12Jun2026 06:07:17.245] [Server thread/INFO] [tombstone/]: The player LeonelWelsh has successfully been saved
+[12Jun2026 06:07:23.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh was slain by Cyclops
+[12Jun2026 06:07:30.736] [Server thread/WARN] [tombstone/]: The death event of the player Sl44tx was canceled by another mod
+[12Jun2026 06:07:30.744] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 06:07:33.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh has made the advancement [My Name is Nobody]
+[12Jun2026 06:07:46.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> bueno prefiero ser yo
+[12Jun2026 06:08:16.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> carbon tienes?
+[12Jun2026 06:08:31.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> si
+[12Jun2026 06:08:39.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh has reached the goal [Bone Crusher]
+[12Jun2026 06:09:10.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> gracias
+[12Jun2026 06:09:46.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> dejo aca yo creo
+[12Jun2026 06:09:50.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> me tengo q levantar temp
+[12Jun2026 06:09:53.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> dale
+[12Jun2026 06:09:57.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> q descanses
+[12Jun2026 06:10:04.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LeonelWelsh> nv rey
+[12Jun2026 06:10:05.639] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LeonelWelsh lost connection: Disconnected
+[12Jun2026 06:10:05.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LeonelWelsh left the game
+[12Jun2026 06:10:05.639] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client LeonelWelsh
+[12Jun2026 06:10:08.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> Ruiz
+[12Jun2026 06:10:10.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> tu q
+[12Jun2026 06:10:17.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> matando dragones
+[12Jun2026 06:10:19.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> por?
+[12Jun2026 06:10:25.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> te quedas mas rato
+[12Jun2026 06:10:26.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ?
+[12Jun2026 06:10:36.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> pos si
+[12Jun2026 06:10:40.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> o ya te vas?
+[12Jun2026 06:10:52.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> na
+[12Jun2026 06:10:54.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> enseguida
+[12Jun2026 06:11:07.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> voy a buscarme un transporte
+[12Jun2026 06:11:18.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> ale
+[12Jun2026 06:12:38.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Not Today, Thank You]
+[12Jun2026 06:14:01.931] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/monster/AbstractIllager$IllagerArmPose
+[12Jun2026 06:14:19.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> me encontre una mansion
+[12Jun2026 06:15:19.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Ambush]
+[12Jun2026 06:16:56.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sl44tx: Gave 64 [Torch] to Sl44tx]
+[12Jun2026 06:18:01.497] [Server thread/WARN] [tombstone/]: The death event of the player Sl44tx was canceled by another mod
+[12Jun2026 06:18:01.502] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 06:18:09.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx was killed by Evoker using magic
+[12Jun2026 06:18:16.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> bueno ahora si me voy
+[12Jun2026 06:18:51.998] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Disconnected
+[12Jun2026 06:18:51.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
+[12Jun2026 06:18:51.999] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Sl44tx
+[12Jun2026 06:19:27.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt has made the advancement [Sea? Not a Problem]
+[12Jun2026 06:22:03.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[12Jun2026 06:22:03.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: c Ruizlpt ruiz<--[HERE]
+[12Jun2026 06:23:56.043] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.121.67.88:1945] logged in with entity id 124602 at (1514.5, 95.0, -922.5)
+[12Jun2026 06:23:56.047] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Sl44tx
+[12Jun2026 06:23:56.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
+[12Jun2026 06:23:56.057] [Server thread/INFO] [Jade/]: Syncing config to Sl44tx (9caffe1c-1bc4-3d58-8bfe-120090bc2848)
+[12Jun2026 06:23:58.925] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Sl44tx (20)
+[12Jun2026 06:23:58.926] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Sl44tx
+[12Jun2026 06:24:03.857] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 9caffe1c-1bc4-3d58-8bfe-120090bc2848
+[12Jun2026 06:24:04.860] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 9caffe1c-1bc4-3d58-8bfe-120090bc2848
+[12Jun2026 06:24:04.860] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Sl44tx (9caffe1c-1bc4-3d58-8bfe-120090bc2848) successfully connected to voice chat
+[12Jun2026 06:24:15.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> mano
+[12Jun2026 06:24:20.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> dimelo
+[12Jun2026 06:24:22.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> avisame cuando te vayas a desconectar
+[12Jun2026 06:24:26.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> para apagar el serv
+[12Jun2026 06:24:48.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> me pones una mencion en dc y listo
+[12Jun2026 06:24:51.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> ya me voy
+[12Jun2026 06:24:52.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Sl44tx> todo bien
+[12Jun2026 06:25:57.135] [Server thread/WARN] [tombstone/]: The death event of the player Ruizlpt was canceled by another mod
+[12Jun2026 06:25:57.143] [Server thread/INFO] [tombstone/]: The player Ruizlpt has successfully been saved
+[12Jun2026 06:26:05.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt was slain by Ice Dragon
+[12Jun2026 06:26:10.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ruizlpt> ale todo bien
+[12Jun2026 06:29:01.336] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ruizlpt lost connection: Disconnected
+[12Jun2026 06:29:01.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ruizlpt left the game
+[12Jun2026 06:29:01.337] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Ruizlpt
+[12Jun2026 06:29:05.431] [Server thread/WARN] [tombstone/]: The death event of the player Sl44tx was canceled by another mod
+[12Jun2026 06:29:05.433] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[12Jun2026 06:30:05.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx was slain by Zombie
+[12Jun2026 06:30:16.432] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Disconnected
+[12Jun2026 06:30:16.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
+[12Jun2026 06:30:16.432] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Sl44tx
+[12Jun2026 06:30:40.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[12Jun2026 06:30:40.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Jun2026 06:30:40.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Jun2026 06:30:40.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Jun2026 06:30:40.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12Jun2026 06:30:41.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12Jun2026 06:30:41.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12Jun2026 06:30:41.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12Jun2026 06:30:41.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Jun2026 06:30:41.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Jun2026 06:30:41.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
